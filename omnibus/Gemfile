@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
 
 gem 'omnibus', github: ENV.fetch('OMNIBUS_GITHUB_REPO', 'chef/omnibus'), branch: ENV.fetch('OMNIBUS_GITHUB_BRANCH', 'main')
-gem 'omnibus-software', github: ENV.fetch('OMNIBUS_SOFTWARE_GITHUB_REPO', 'chef/omnibus-software'), branch: ENV.fetch('OMNIBUS_SOFTWARE_GITHUB_BRANCH', 'main')
+gem 'omnibus-software', github: ENV.fetch('OMNIBUS_SOFTWARE_GITHUB_REPO', 'chef/omnibus-software'), branch: ENV.fetch('OMNIBUS_SOFTWARE_GITHUB_BRANCH', '258c62e688b82c520314f58c1f04828c55a2658d')
 gem 'artifactory'
